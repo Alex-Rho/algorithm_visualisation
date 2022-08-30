@@ -10,7 +10,7 @@ function partition(arr, left, right) {
             i++;
         }
 
-        while (items[j] > pivot) {
+        while (arr[j] > pivot) {
             j--;
         }
 
@@ -36,4 +36,4 @@ function quickSort(arr, left, right) {
     return arr;
 }
 
-console.log(quickSort([5,3,7,6,2,9]))
+console.log(quickSort([5,3,7,6,2,9], 0, 5))
