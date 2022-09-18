@@ -1,7 +1,10 @@
+import * as React from 'react';
+import Nav from './components/Nav.js';
+
 function App() {
   return (
     <div className="App">
-      Hello
+      <Nav />
     </div>
   );
 }
